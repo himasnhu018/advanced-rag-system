@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+faiss-cpu
+sentence-transformers
+uvicorn
+requests
+python-multipart
+aiofiles
+sqlmodel

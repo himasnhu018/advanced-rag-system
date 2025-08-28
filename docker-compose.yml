@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  rag-api:
+    build: .
+    container_name: rag-hot-swap
+    volumes:
+      - ./indexes:/app/indexes
+      - ./app/data:/app/app/data
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
