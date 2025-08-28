@@ -65,4 +65,4 @@ MIT License
 
 **Sorry for the late submissions. Kindly consider the project for evaluation.**
 
-*For questions or contributions, please open an issue or
+*For questions or contributions, please open an issue or pull request.*
